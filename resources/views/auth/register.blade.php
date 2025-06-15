@@ -11,7 +11,7 @@
         }
     </style>
 </head>
-<body class="min-h-screen flex flex-col bg-cover bg-no-repeat bg-center bg-fixed items-center" style="background-image: url('{{ asset('storage/images/bg.png') }}');">
+<body class="min-h-screen flex flex-col bg-cover bg-no-repeat bg-center bg-fixed items-center" style="background-image: url('{{ asset('images/bg.png') }}');">
 
     <!-- Navbar -->
     <nav class="bg-[#FEF9E1] py-3 px-6 w-full shadow">
