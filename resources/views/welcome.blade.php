@@ -65,7 +65,7 @@
         <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-[#5F1515] text-white px-4 py-1 rounded-full text-lg">
           {{ $produk['nama'] }}
         </div>
-        <img src="{{ asset('storage/images/' . $produk['img']) }}" alt="{{ $produk['nama'] }}" class="w-full h-auto mt-8 rounded">
+        <img src="{{ asset('public/images/' . $produk['img']) }}" alt="{{ $produk['nama'] }}" class="w-full h-auto mt-8 rounded">
         <p class="mt-4 text-2xl font-bold text-[#5D4037]">Rp 25.000</p>
       </div>
       @endforeach
