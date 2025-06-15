@@ -17,7 +17,7 @@
   <!-- Navbar -->
   <nav class="bg-[#FEF9E1] py-3 px-6">
     <div class="container mx-auto">
-      <img src="{{ asset('storage/images/logo.png') }}" alt="Gurihlicious" width="106" height="106" class="w-[106px] h-[106px] object-contain">
+      <img src="{{ asset('images/logo.png') }}" alt="Gurihlicious" width="106" height="106" class="w-[106px] h-[106px] object-contain">
     </div>
   </nav>
 

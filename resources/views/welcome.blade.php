@@ -12,7 +12,7 @@
   <header class="border-b-[10px] border-[#5F1515]">
     <nav class="flex justify-between items-center px-6 py-4">
       <a href="#">
-        <img src="{{ asset('storage/images/logo.png') }}" alt="Gurihlicious Logo" class="h-20 w-auto">
+        <img src="{{ asset('images/logo.png') }}" alt="Gurihlicious Logo" class="h-20 w-auto">
       </a>
       <div class="hidden md:flex gap-6 items-center">
         @if (Route::has('login'))
@@ -76,7 +76,7 @@
   <footer class="footer-container pb-6">
     <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-6 md:gap-0">
       <div class="text-center md:text-left">
-        <img src="{{ asset('storage/images/logo.png') }}" alt="Gurihlicious Logo" class="h-20 mb-2 mx-auto md:mx-0">
+        <img src="{{ asset('images/logo.png') }}" alt="Gurihlicious Logo" class="h-20 mb-2 mx-auto md:mx-0">
         <p class="text-xl font-medium">"Gurihlicious –<br>Sensasi Gurih dalam<br>Setiap Gigitan!"</p>
       </div>
       <div class="text-center md:text-right pt-30">

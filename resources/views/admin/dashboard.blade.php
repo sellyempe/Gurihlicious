@@ -11,7 +11,7 @@
     <!-- Sidebar -->
     <aside class="w-64 bg-[#E3C7A2] text-[#5A0000] flex flex-col">
         <div class="p-4">
-            <img src="{{ asset('storage/images/logo.png') }}" alt="Gurihlicious" width="106" height="106" class="w-[106px] h-[106px] object-contain">
+            <img src="{{ asset('images/logo.png') }}" alt="Gurihlicious" width="106" height="106" class="w-[106px] h-[106px] object-contain">
             <nav class="space-y-4">
                 <a href="#" class="flex items-center gap-2 p-3 bg-[#FFF7DD] rounded-md font-semibold">Dashboard</a>
                 <a href="{{ route('orders.index') }}" class="flex items-center gap-2 p-3 bg-[#FFF7DD] rounded-md font-semibold text-[#5A0000]">Order</a>
